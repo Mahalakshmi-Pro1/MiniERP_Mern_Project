@@ -10,7 +10,7 @@ app.use(cors({
   origin: [
     "http://localhost:5173",
     "http://localhost:5174",
-    "https://mini-erp-mern-project-rl6vxfzrp-mahalakshmipro1-2217.vercel.app",
+    "https://mini-erp-mern-project.vercel.app",
     "https://minierp-whmt.onrender.com"
   ]
 }));
