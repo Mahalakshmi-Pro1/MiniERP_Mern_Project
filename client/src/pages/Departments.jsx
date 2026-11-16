@@ -19,7 +19,7 @@ export default function Departments() {
   async function loadDepartments() {
     try {
       setLoading(true);
-      const data = await getDepartments();
+            const data = await getDepartments();
       setDepartments(data);
       setError("");
     } catch (err) {

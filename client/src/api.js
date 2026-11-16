@@ -28,7 +28,7 @@ export async function removeEmployee(id) {
 
 
 export const DEPARTMENT_API =
-  "http://localhost:5000/api/departments";
+  `${import.meta.env.VITE_API_URL}/api/departments`;
 
 export async function getDepartments() {
   try {
