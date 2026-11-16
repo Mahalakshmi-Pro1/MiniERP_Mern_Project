@@ -1,4 +1,4 @@
-export const API = 'http://localhost:5000/api/employees';
+export const API = `${import.meta.API_URL}/api/employees`;
 
 export async function getEmployees() {
   const response = await fetch(API);
