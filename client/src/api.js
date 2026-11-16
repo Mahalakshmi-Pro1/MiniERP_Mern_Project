@@ -1,4 +1,4 @@
-export const API = `${import.meta.env.API_URL}/api/employees`;
+export const API = `${import.meta.env.VITE_API_URL}/api/employees`;
 
 export async function getEmployees() {
   const response = await fetch(API);
